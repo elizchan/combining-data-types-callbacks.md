@@ -51,16 +51,10 @@ const f = l => {
   
   // Create an object, called crayonBox, that has a property that is an array. The array should have the names of some crayons. Log one of the elements of that array.
 
-const crayonBox = [
-    "pink",
-    "light blue",
-    "red",
-    "black",
-    "purple",
-    "green",
-    "yellow-green",
-  ];
-  console.log(crayonBox[3])
+  const crayonBox = {
+    colors: ["pink","light blue","red","black","purple","green","yellow-green"]
+  };
+  console.log(crayonBox.colors[3])
   
   // Create an object bottle that has a property that is an object: cap. cap can have properties like material: 'metal' or 'plastic', color: blue or white etc. Log one of the properties of that inner object.
   
