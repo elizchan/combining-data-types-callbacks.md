@@ -134,3 +134,4 @@ const bar = () => {
   }
   nums.some(divSeven)
   //Find out if some words have the letter a in them
+  panagram.some(word => word.includes('a'))
