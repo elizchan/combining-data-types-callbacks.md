@@ -133,4 +133,4 @@ const bar = () => {
     return (number%7 === 0)
   }
   nums.some(divSeven)
-  
+  //Find out if some words have the letter a in them
